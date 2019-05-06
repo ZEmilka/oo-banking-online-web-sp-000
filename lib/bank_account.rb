@@ -10,8 +10,12 @@ class BankAccount
   end
 
   def deposit(amount)
-    #@balance+=amount
+    #@balance+=amount or
     selfe.balance+=amount
+  end
+
+  def display_balance
+    "You're balance is $#{self.balance}."
   end
 
 end
