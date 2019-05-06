@@ -5,12 +5,12 @@ class BankAccount
 
   def initialize(name)
     @name=name
-    @balane=1000
+    @balance=1000
     @status="open"
   end
 
   def deposit(amount)
-    @balane+=amount
+    @balance+=amount
   end
 
 end
